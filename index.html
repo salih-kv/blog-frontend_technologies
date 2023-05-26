@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog - Front End Technologies</title>
+  <link rel="shortcut icon" href="./imgs/favicon/webt.png" type="image/x-icon" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- Link to Box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- ~ Header -->
+  <header>
+    <!-- About & Contact | collapse -->
+    <div class="collapse text-bg-light" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4>About</h4>
+            <p class="text-body-secondary">
+              The blog covers essential Front End web development assets,
+              catering to those interested in learning about these topics and
+              gaining insights into key keywords in the field.
+            </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4>Contact</h4>
+            <ul class="list-unstyled social-links">
+              <a href="#" class="text-white"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="text-white"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="text-white"><i class="bx bx-envelope"></i></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <div class="navbar navbar-dark shadow-sm">
+      <div class="container">
+        <a href="./index.html" class="navbar-brand d-flex align-items-center">
+          Frontend<span>Blogs</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ! Main -->
+  <main>
+    <!-- ~ Hero Section -->
+    <section class="py-5 text-center container-fluid text-light hero-section">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-bolder">Front End Technologies</h1>
+          <p class="fw-semibold text-body-secondary">
+            Unlocking the Potential of Websites with Next-gen Frontend
+            Technologies.
+          </p>
+          <p>
+            <a href="./components/sign-up.html" class="sign-up-btn">Sign Up</a>
+            <a href="./components/sign-in.html" class="sign-in-btn">Sign In</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~ Latest Blogs Section start -->
+    <section class="">
+      <div class="main-container container mt-5 ">
+        <div class="row gap-md-5 gy-sm-5">
+          <div class="left-section col-md">
+            <div class="row  gap-md-5">
+              <div class="top p-0">
+                <img class="w-100 tile-img mb-5" src="./imgs/image-web-3-desktop.jpg" alt="Web3 Image">
+              </div>
+              <div class="col-lg p-sm-0">
+                <h1 class="h1 pb-3 lh-base">
+                  The Bright Future of Web 3.0?
+                </h1>
+              </div>
+              <div class="col-lg p-sm-0">
+                <p class="description pb-3">
+                  We dive into the next evolution of the web that claims to put the power of the platforms back into the
+                  hands
+                  of the people. But is it really fulfilling its promise?
+                </p>
+                <a href="./components/web3.0.html">
+                  <button class="read-more mb-3">READ MORE</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="right-section p-4 col-md-4">
+            <h2 class="h2">New</h2>
+            <div class="row row-cols-1 gy-5 mx-3">
+              <article class="col p-0">
+                <h4 class="h4"><a href="./components/latest-blog-01.html">How Senior Engineers Build React Apps</a></h4>
+                <p class="news-description">Key strategies that senior engineers use to build React apps.
+                </p>
+              </article>
+              <article class="col p-0">
+                <h4 class="h4"><a href="./components/latest-blog-02.html">5 Amazing Things Pure CSS Can Do for You</a>
+                </h4>
+                <p class="news-description">The good thing about using vanilla CSS</p>
+              </article>
+              <article class="col p-0">
+                <h4 class="h4"><a href="./components/latest-blog-03.html">Is it hard to learn Angular with Javascript
+                    from zero?</a></h4>
+                <p class="news-description">Why it is harder to start learning the front end now than before?</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-container container gap-3 overflow-hidden my-5">
+        <div class="row">
+          <div class="news-tile col-md">
+            <div>
+              <a href="./components/404.html">
+                <img class="tile-img" src="./imgs/VueJs.jpg" alt="Retro PC Image">
+              </a>
+            </div>
+            <div>
+              <a href="./components/404.html">
+                <h3 class="number">01</h3>
+                <h6 class="h6">Make Vue.js 10x faster</h6>
+                <p class="p">Boost Vue.js performance by 10x with expert optimizations.</p>
+              </a>
+            </div>
+          </div>
+          <div class="news-tile col-md">
+            <div>
+              <a href="./components/404.html">
+                <img class="tile-img" src="./imgs/NextJs.png" alt="keyboard image">
+              </a>
+            </div>
+            <div>
+              <a href="./components/404.html">
+                <h3 class="number">02</h3>
+                <h6 class="h6">Next.Js 13 Drops</h6>
+                <p class="p">Explore the latest release of Next.js 13 and uncover its exciting updates.</p>
+              </a>
+            </div>
+          </div>
+          <div class="news-tile col-md">
+            <div>
+              <a href="./components/404.html">
+                <img class="tile-img" src="./imgs/TypeScript.png" alt="Retro PC Image">
+              </a>
+            </div>
+            <div>
+              <a href="./components/404.html">
+                <h3 class="number">03</h3>
+                <h6 class="h6">Clean Code in TypeScript</h6>
+                <p class="p">Discover the principles and techniques for writing elegant and maintainable code.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ~ Latest Blogs Section end-->
+
+    <!--^ Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Newsletter</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Thank you for subscribing to our newsletter. Stay tuned to hear about our new collection.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~ Newsletter  -->
+    <section class="home-newsletter py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="single">
+              <h2>Subscribe to our Newsletter</h2>
+              <form>
+                <div class="input-group">
+                  <input type="email" class="form-control" placeholder="Enter your email">
+                  <span class="input-group-btn">
+                    <button id="sub-btn" class="btn btn-theme" type="submit" data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop">Subscribe</button>
+                </div>
+                </span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~ Album -->
+    <section>
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- * HTML -->
+            <a href="./components/html5.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/html.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      HTML is the foundation of web development. It defines the
+                      structure and content of web pages, allowing for the
+                      inclusion of text, images, links, and other elements to
+                      create visually engaging and interactive online
+                      experiences.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">5 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * CSS -->
+            <a href="./components/css.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/css.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      CSS is a styling language that controls the presentation
+                      and appearance of web pages. It enables design
+                      customization, layout control, and consistent styling
+                      across multiple pages, enhancing the visual appeal and
+                      user experience.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">5 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * JS -->
+            <a href="./components/js.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/JavaScript.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      JavaScript is a lightweight, cross-platform, and
+                      interpreted compiled programming language which is also
+                      known as the scripting language for webpages.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">7 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * REACT JS -->
+            <a href="./components/reactJs.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/ReactJs.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      React is a popular JavaScript library used for building
+                      user interfaces. It allows developers to create reusable
+                      UI components, making it efficient and straightforward to
+                      build interactive and dynamic web applications.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">3 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * ANGULAR -->
+            <a href="./components/angular.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/Angular 1.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Angular is a widely-used JavaScript framework for building
+                      web applications. It provides a structured approach to
+                      development, offering features such as data binding,
+                      component-based architecture, and dependency injection for
+                      creating robust and scalable applications.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">3 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * VUE JS -->
+            <a href="./components/vueJs.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/VueJs 01.jpg" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Vue.js is a progressive JavaScript framework for building
+                      user interfaces. It focuses on the view layer and offers
+                      an intuitive and flexible approach, making it easy to
+                      integrate with existing projects or build from scratch.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">3 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * TYPESCRIPT -->
+            <a href="./components/typeScript.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/TypeScript.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      TypeScript is a typed superset of JavaScript that adds
+                      static typing and other advanced features to enhance
+                      JavaScript development. It provides better code
+                      organization, improved error detection, and increased
+                      productivity for building scalable and maintainable
+                      applications.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">4 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * JQUERY -->
+            <a href="./components/jQuery.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/jquery.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      jQuery is a fast and concise JavaScript library that
+                      simplifies HTML document traversing, event handling,
+                      animating, and AJAX interactions. It allows developers to
+                      write less code and achieve more functionality with ease.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">3 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- * BOOTSTRAP -->
+            <a href="./components/bootstrap.html">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" src="./imgs/Bootstrap.png" width="100%" height="225" />
+                  <div class="card-body">
+                    <p class="card-text">
+                      Bootstrap is a popular open-source CSS framework that aids
+                      in building responsive and mobile-first websites. It
+                      provides pre-built components and styles, facilitating the
+                      creation of visually appealing and user-friendly
+                      interfaces.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <small class="text-body-secondary small-text">2 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ! /Main -->
+
+  <!-- ~ Footer -->
+  <footer>
+    <div class="container-xl">
+      <div class="footer-inner">
+        <div class="row d-flex align-items-center gy-4">
+          <div class="col-md-4">
+            <span class="copyright">&copy; 2023 FrontendBlogs</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <ul class="social-icons list-unstyled list-inline mb-0">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bx bxl-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="bx bx-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <a href="#" id="return-to-top" class="float-md-end">
+              <i class="bx bx-chevrons-up"></i>
+              Back to Top
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

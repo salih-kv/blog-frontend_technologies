@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #4c4cfc;
+}
+
+body {
+  background: url(../imgs/formBg/form-bg.jpg) no-repeat center;
+  background-size: cover;
+  backdrop-filter: blur(60px);
+  font-family: "poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  min-width: 600px;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 3rem;
+  border-radius: 8px;
+}
+input::placeholder {
+  font-size: 12px;
+}
+.ln-cnr,
+.fn-cnr {
+  position: relative;
+}
+.fa-solid {
+  color: grey;
+  position: absolute;
+  top: 43px;
+  right: 25px;
+}
+
+/* Sign In */
+
+.back-home {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2rem;
+}
+.bxs-right-arrow {
+  color: var(--primary-color);
+  font-size: 12px;
+  margin: 0 1rem;
+}
+
+.forgot-link {
+  font-size: 14px;
+  text-align: end;
+  margin-bottom: 1rem;
+}
+
+@media (width <= 767px) {
+  form {
+    height: 100vh;
+    min-width: 100%;
+  }
+}
